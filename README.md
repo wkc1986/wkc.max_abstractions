@@ -12,16 +12,16 @@ Recognizes creation arguments.
 
 * `groove_grain~`: voice for a single grain.
 Intended for `poly~`.
-    * Creation arguments:
-		    * `#1`: playback buffer name
-		    * `#2`: window buffer name
-		* `inlet 1` messages:
-		    * `float`: start position (ms), triggers grain
+	* Creation arguments:
+		* `#1`: playback buffer name
+		* `#2`: window buffer name
+	* `inlet 1` messages:
+		* `float`: start position (ms), triggers grain
 		* `inlet 2` messages:
-		    * `length_min` (ms)
-		    * `length_max`
-		    * `amp_min` (0 - 1 scale)
-		    * `amp_max`
-		    * `pan_min` (-50 - 50 scale)
-		    * `pan_max`
+			* `length_min` (ms)
+			* `length_max`
+			* `amp_min` (0 - 1 scale)
+			* `amp_max`
+			* `pan_min` (-50 - 50 scale)
+			* `pan_max`
 
