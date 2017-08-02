@@ -3,8 +3,10 @@
 * `rand_between`: bang for random numbers between `#1` and `#2`.
 Reset range using inlets.
 
-* `plus_minus`: sends `inlet 1 + inlet 2` out `outlet 2` and `inlet 1 - inlet 2` out `outlet 1`.
-Recognizes creation arguments.
+* `plus_minus`: function depends on creation arguments
+	* if `#3` == 'sum' or none, sends `inlet 1 + inlet 2` out `outlet 2` and `inlet 1 - inlet 2` out `outlet 1`.
+	* if `#3` == 'product,' sends `inlet 1 * inlet 2` out `outlet 2` and `inlet 1 - inlet 2` out `outlet 1`
+	* Recognizes creation arguments.
 
 # Audio
 
