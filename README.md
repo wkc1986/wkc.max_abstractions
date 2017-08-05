@@ -8,6 +8,8 @@ Reset range using inlets.
 	* if `#3` == 'product,' sends `inlet 1 * inlet 2` out `outlet 2` and `inlet 1 - inlet 2` out `outlet 1`
 	* Recognizes creation arguments.
 
+* `random_list_element`: send a list to right inlet, bang left inlet for a random element
+
 # Audio
 
 ## Granular synthesis
@@ -27,3 +29,4 @@ Intended for `poly~`.
 			* `pan_min` (-50 - 50 scale)
 			* `pan_max`
 
+* `grain_banger~`: 'spitter' for `groove_grain~`

@@ -94,10 +94,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 790.0, 720.0, 37.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out 1"
 				}
@@ -110,10 +106,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 589.0, 720.0, 44.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out~ 2"
 				}
@@ -126,10 +118,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 511.0, 720.0, 44.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out~ 1"
 				}
@@ -144,10 +132,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 697.0, 38.0, 30.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in 2"
 				}
@@ -162,10 +146,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 435.0, 73.0, 30.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in 1"
 				}
@@ -204,7 +184,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1007.0, 279.0, 97.0, 22.0 ],
+					"patching_rect" : [ 962.0, 279.0, 97.0, 22.0 ],
 					"style" : "",
 					"text" : "r #0-pan_max"
 				}
@@ -217,7 +197,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 960.0, 246.0, 93.0, 22.0 ],
+					"patching_rect" : [ 915.0, 246.0, 93.0, 22.0 ],
 					"style" : "",
 					"text" : "r #0-pan_min"
 				}
@@ -243,7 +223,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 913.0, 337.0, 113.0, 22.0 ],
+					"patching_rect" : [ 868.0, 337.0, 113.0, 22.0 ],
 					"style" : "",
 					"text" : "rand_between 0. 0."
 				}
@@ -759,7 +739,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
-					"midpoints" : [ 479.5, 254.0, 922.5, 254.0 ],
+					"midpoints" : [ 479.5, 254.0, 877.5, 254.0 ],
 					"source" : [ "obj-2", 3 ]
 				}
 
@@ -888,7 +868,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 1 ],
-					"midpoints" : [ 922.5, 619.0, 430.5, 619.0 ],
+					"midpoints" : [ 877.5, 619.0, 430.5, 619.0 ],
 					"source" : [ "obj-42", 0 ]
 				}
 
@@ -981,7 +961,29 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "rand_between.maxpat",
+				"bootpath" : "~/Documents/Max 7/Library/my_abstractions",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "transratio.maxpat",
+				"bootpath" : "~/Documents/Max/Projects/mango_prototype/patchers",
+				"patcherrelativepath" : "../../../Max/Projects/mango_prototype/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "M4L.pan1~.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Tools resources",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
