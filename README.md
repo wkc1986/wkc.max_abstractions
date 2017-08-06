@@ -10,6 +10,8 @@ Reset range using inlets.
 
 * `random_list_element`: send a list to right inlet, bang left inlet for a random element
 
+* `send_to`: given a list `meh psh`, sends message `psh` to `[receive #0-meh]`
+
 # Audio
 
 ## Granular synthesis
