@@ -12,6 +12,10 @@ Reset range using inlets.
 
 * `send_to`: given a list `meh psh`, sends message `psh` to `[receive #0-meh]`
 
+* `metro_between`: a `metro` that resets its own interval.
+If `#3 == 'random'` then interval is uniform random between `#1` and `#2`.
+If `#3 == `drunk` then interval is set by drunken walk between `0` and `#1` with a maximum step size of `#2`.
+
 # Audio
 
 ## Granular synthesis
